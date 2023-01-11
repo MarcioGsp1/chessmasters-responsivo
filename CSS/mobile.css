@@ -21,11 +21,11 @@
 
 /*clients*/
 
-#clients {
+#pieces {
     grid-template-columns: repeat(2, 1fr);
 }
 
-.client {
+.piece {
     width: 50%;
 }
 
@@ -42,7 +42,7 @@
 
 /*product*/
 
-#product-container {
+#goal-container {
     flex-direction: column;
 }
 
@@ -58,22 +58,22 @@
 
 /* testimonials*/
 
-#testimonial {
+#masters {
     flex-direction: column;
     text-align: center; 
 }
 
-.testimonial-container {
+.teatcher-container {
    margin-right: 200px; 
 }
 
 /*gallery*/
 
-#gallery-container {
+#openings-container {
     grid-template-columns: 1fr;
 }
 
-.gallery-image {
+.openings-image {
     width: 100%;
     margin-right: 50px;
 }
