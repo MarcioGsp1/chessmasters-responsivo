@@ -19,7 +19,7 @@
     border-bottom: 1px solid #333;
 }
 
-/*clients*/
+/*pieces*/
 
 #pieces {
     grid-template-columns: repeat(2, 1fr);
@@ -40,7 +40,7 @@
     margin: 15px 0;
 }
 
-/*product*/
+/*goal*/
 
 #goal-container {
     flex-direction: column;
@@ -56,7 +56,7 @@
     text-align: center;
 }
 
-/* testimonials*/
+/* masters*/
 
 #masters {
     flex-direction: column;
@@ -67,7 +67,7 @@
    margin-right: 200px; 
 }
 
-/*gallery*/
+/*openings*/
 
 #openings-container {
     grid-template-columns: 1fr;
