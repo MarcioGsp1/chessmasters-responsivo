@@ -13,6 +13,12 @@ body {
 
 a {
   text-decoration: none;
+  color: #fff;
+  transition: .3s;
+}
+
+a:hover {
+  color: #aaa;
 }
 
 .btn {
@@ -48,6 +54,7 @@ a {
   background: #111;
   color: #eee;
   height: 80px;
+  padding: 10px;
 }
 
 #navbar-container {
@@ -99,7 +106,7 @@ a {
 
 #showcase-container p {
   font-size: 1.2rem;
-  padding-bottom: 7px 0;
+  padding: 10px;
 }
 
 /*clients*/
@@ -196,6 +203,7 @@ a {
   margin: 30px;
   height: 300px;
   border-radius: 50%;
+
 }
 
 .testimonials {
@@ -230,9 +238,9 @@ a {
 
 .gallery-image {
   display: inline-block;
-  width: 340px;
+  width: 320px;
   height: 260px;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 /*footer*/
